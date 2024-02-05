@@ -16,7 +16,7 @@ h1 {
     
     font-family:'Times New Roman', Times, serif;
 
-    font: size 64px;
+    font-size: 64px;
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
     
     font-family:'Times New Roman', Times, serif;
 
-    font: size 32px;
+    font-size: 32px;
 }
 
 
@@ -33,7 +33,7 @@ h3 {
     
     font-family:Arial, Helvetica, sans-serif;
 
-    font: size 18px;;
+    font-size: 18px;;
 }
 
 p {
@@ -41,7 +41,7 @@ p {
     
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
-    font: size 12px;
+    font-size: 12px;
 }
 
 ul {
@@ -49,7 +49,7 @@ ul {
     
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
-    font: size 12px;
+    font-size: 12px;
 }
 
 ol {
@@ -57,5 +57,5 @@ ol {
     
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
-    font: size 12px;
+    font-size: 12px;
 }
