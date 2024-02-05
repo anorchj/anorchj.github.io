@@ -61,6 +61,6 @@ A:link, A:visited {text-decoration: underline}
 A:active {color:blue}
 A:hover {font-size:24; font-weight:bold; color: red;}
 
-table, th, td {
-    border:1px solid black;
+table {
+    border: 10px solid darkred;
   }
