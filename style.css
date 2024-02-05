@@ -1,0 +1,40 @@
+body {
+    background-color:cornflowerblue;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 100pt;
+  margin-bottom: 100pt;
+  margin-right: 150pt;
+  margin-left: 80pt;
+}
+
+h1 {
+    color:crimson;
+    
+    font-family:'Times New Roman', Times, serif;
+
+    font-size:large
+}
+
+
+h3 {
+    color:darkred;
+    
+    font-family:Arial, Helvetica, sans-serif;
+
+    font-size:medium;
+}
+
+p {
+    color:brown;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    font-size:smaller
+}
+
+A:link {text-decoration: none}
+A:visited {text-decoration: underline; color: red;}
+A:active {color: red;}
+A:hover {font-size:24; font-weight:bold;}
