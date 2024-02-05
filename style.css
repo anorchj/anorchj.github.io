@@ -33,8 +33,3 @@ p {
 
     font-size:smaller
 }
-
-A:link {text-decoration: none}
-A:visited {text-decoration: underline; color: red;}
-A:active {color: red;}
-A:hover {font-size:24; font-weight:bold;}
