@@ -58,5 +58,5 @@ ol {
 }
 
 A:link, A:visited {text-decoration: underline}
-A:active {text-decoration: none}
+A:active {color:blue}
 A:hover {font-size:24; font-weight:bold; color: red;}
