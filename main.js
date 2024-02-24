@@ -1,6 +1,6 @@
 function myFunction()
 {
-    var name = prompt("What is your name?");
+    var person = prompt("What is your name?");
 
     if (person != null) {
         document.getElementById("demo").innerHTML = person;
