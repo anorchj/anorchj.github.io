@@ -1,10 +1,8 @@
-function myFunction()
-{
-    var person = prompt("What is your name?");
-
+function myFunction() {
+    let person = prompt("Please enter your name", "Harry Potter");
     if (person != null) {
-        document.getElementById("demo").innerHTML = person;
-      }
-
-}
+      document.getElementById("demo").innerHTML =
+      "Hello " + person + "! How are you today?";
+    }
+  }
 
