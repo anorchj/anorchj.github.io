@@ -6,5 +6,5 @@ functionmyFunction()
         document.getElementById("demo").innerHTML = person;
       }
 
- }
+}
 
