@@ -4,5 +4,5 @@ function myFunction() {
       document.getElementById("demo").innerHTML =
       "Hello " + person + "! How are you today?";
     }
-  }
+}
 
