@@ -7,3 +7,8 @@ function myFunction() {
     }
 }
 
+//Image resizing on click function
+function imgFunction() {
+    document.getElementById("myImg").height = "330".width="300";
+}
+
