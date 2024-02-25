@@ -13,7 +13,12 @@ function imgFunction() {
     document.getElementById("myImg").width = "300";
 }
 
-//When the user clicks on the button, toggle between hiding and showing the drop down content
+//When the user clicks on the button, toggle between hiding and showing the drop down content for "Extra Curricular Activities" Menu
 function menuFunction() {
     document.getElementById("myDropdown").classList.toggle("show"); 
+}
+
+//When the user clicks on the button, toggle between hiding and showing the drop down content for "Menu" Menu
+function menuFunction() {
+    document.getElementById("myDropdown1").classList.toggle("show"); 
 }
