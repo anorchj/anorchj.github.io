@@ -19,6 +19,6 @@ function menuFunction() {
 }
 
 //When the user clicks on the button, toggle between hiding and showing the drop down content for "Menu" Menu
-function menuFunction() {
+function menuFunction1() {
     document.getElementById("myDropdown1").classList.toggle("show"); 
 }
