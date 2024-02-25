@@ -9,6 +9,7 @@ function myFunction() {
 
 //Image resizing on click function
 function imgFunction() {
-    document.getElementById("myImg").height = "330".width="300";
+    document.getElementById("myImg").height = "330";
+    document.getElementById("myImg").width = "300";
 }
 
