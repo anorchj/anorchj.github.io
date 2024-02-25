@@ -22,3 +22,12 @@ function menuFunction() {
 function menuFunction1() {
     document.getElementById("myDropdown1").classList.toggle("show"); 
 }
+
+//mouseover and mouseout events
+function mOver(some_tag) {
+    some_tag.innerHTML= "Will Direct to External Link"
+}
+
+function mOut(element) {
+    some_tag.innerHTML= "These Are External Links"
+}
