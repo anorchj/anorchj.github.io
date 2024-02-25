@@ -29,5 +29,5 @@ function mOver(some_tag) {
 }
 
 function mOut(some_tag) {
-    some_tag.style.color= "Blue"
+    some_tag.style.color= "Red"
 }
