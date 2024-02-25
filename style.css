@@ -66,19 +66,32 @@ table, th, td {
   }
 
 
-  body,html{height:100%;} 
-  nav{ 
-    background-color:#f79F79; 
+ /*DropdownButton*/ 
+ .dropbtn{ 
+    font-size:20px; 
+} 
+/*Thecontainer<div>-neededtopositionthedropdowncontent*/ 
+.dropdown{ 
+    position:relative; 
+    float: right; 
+    display: inline-block; 
+} 
+/*DropdownContent(HiddenbyDefault)*/ 
+.dropdown-content{ 
+    display:none; 
     position:absolute; 
-    width:150px; 
-    height:100%; 
+    background-color:#f9f9f9; 
+    min-width:200px; 
 } 
-nav a{ 
-    padding:15px; 
-    display:block; 
-    font-size:25pt; 
-    color:#58355E; 
+/*Linksinsidethedropdown*/ 
+.dropdown-contenta{ 
+    display:block;
+    /*blockdisplayallowsvertical itemalignment*/ 
 } 
-nav a:hover{ 
-    color:#f1f1f1; 
+/*Changecolorofdropdownlinksonhover*/ 
+.dropdown-contenta:hover{
+    background-color:#f1f1f1
+} 
+/*Showthedropdownmenu(useJStoaddthisclasstothe.dropdown-contentcontainerwhentheuserclicks onthedropdownbutton)*/ 
+.show{display:block;
 }
