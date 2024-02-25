@@ -25,7 +25,7 @@ function menuFunction1() {
 
 //mouseover and mouseout events
 function mOver(some_tag) {
-    some_tag.innerHTML= "Will Direct to External Link"
+    some_tag.style.color= "Green"
 }
 
 function mOut(some_tag) {
