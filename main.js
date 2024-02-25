@@ -28,6 +28,6 @@ function mOver(some_tag) {
     some_tag.innerHTML= "Will Direct to External Link"
 }
 
-function mOut(element) {
+function mOut(some_tag) {
     some_tag.innerHTML= "These Are External Links"
 }
