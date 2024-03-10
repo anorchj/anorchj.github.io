@@ -95,11 +95,3 @@ table, th, td {
 /*Showthedropdownmenu(useJStoaddthisclasstothe.dropdown-contentcontainerwhentheuserclicks onthedropdownbutton)*/ 
 .show{display:block;
 }
-
-form { 
-    color:purple;
-    
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
-    font-size: 12px;
-}
