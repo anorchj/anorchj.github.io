@@ -31,3 +31,33 @@ function mOver(some_tag) {
 function mOut(some_tag) {
     some_tag.style.color= "Red"
 }
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent default form submission
+    
+    // Get form data
+    var formData = {
+        'birthdate': document.getElementById('birthdate').value,
+        'name': document.getElementById('name').value,
+        'email': document.getElementById('email').value,
+        'phone': document.getElementById('phone').value,
+        'message': document.getElementById('message').value,
+        'contact_method': document.querySelector('input[name="contact_method"]:checked').value,
+        'recruitment_period': document.getElementById('recruitment_period').value,
+        'key_qualifications': getCheckedCheckboxes()
+    };
+
+    // Store form data in local storage
+    localStorage.setItem('contactFormData', JSON.stringify(formData));
+    
+});
+
+// Function to get checked checkboxes
+function getCheckedCheckboxes() {
+    var checkboxes = document.querySelectorAll('input[name="key_qualifications"]:checked');
+    var values = [];
+    checkboxes.forEach(function(checkbox) {
+        values.push(checkbox.value);
+    });
+    return values;
+}
