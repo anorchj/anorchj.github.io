@@ -96,6 +96,7 @@ table, th, td {
 .show{display:block;
 }
 
+/* Colour and font styling for the 'Contact Us' form*/
 form { 
     color:purple;
     
