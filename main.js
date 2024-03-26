@@ -61,3 +61,5 @@ function getCheckedCheckboxes() {
     });
     return values;
 }
+
+<a href="javascript:void(0);" onclick="document.body.style.fontSize='.5em';"><span style="font-size: xx-small;">Small</span></a>
